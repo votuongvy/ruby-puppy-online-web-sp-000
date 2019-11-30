@@ -7,10 +7,10 @@ class Dog
  
   def initialize(name)
     @name = name
-    save
+    save #call save method upon initilization
   end
   
-  def save
+  def save #save method should be an instance method  class
      @@all << self
    end
   
